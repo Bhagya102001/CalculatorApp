@@ -15,10 +15,19 @@ def div(a,b):
     else:
         div = b/a
     print(div)
+def gcd(a,b):
+    while(b):
+        a,b=b,a%b
+    print(a)
+def squaresum(a,b):
+    ss=0
+    ss=(a*a)+(b*b)
+    print(ss)
 a=int(input("enter a number"))
 b=int(input("enter another number"))
 add(a,b)
 sub(a,b)
 mul(a,b)
 div(a,b)
-
+gcd(a,b)
+squaresum(a,b)
