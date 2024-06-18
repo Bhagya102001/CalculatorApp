@@ -23,6 +23,9 @@ def ss(a,b):
     ss=0
     ss=(a*a)+(b*b)
     print(ss)
+def cube(a):
+    print(a*a*a)
+
 a=int(input("enter a number"))
 b=int(input("enter another number"))
 
@@ -32,3 +35,4 @@ mul(a,b)
 div(a,b)
 gcd(a,b)
 ss(a,b)
+cube(a)
